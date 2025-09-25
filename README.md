@@ -7,7 +7,7 @@
   ```
 
 - Set up the environment:
-- ```
+  ```
   python3 -m venv .venv
   source .venv/bin/activate
   ```
@@ -22,6 +22,8 @@
   pip install -r requirements.txt
   ```
 - Start
-  **airflow standalone**
+  ```airflow standalone```
+  
   Frontend (Streamlit): **http://localhost:8501**
+  
   Airflow: **http://localhost:8080**
