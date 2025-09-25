@@ -12,7 +12,7 @@
   source .venv/bin/activate
   ```
   ```
-  export AIRFLOW_HOME="$PWD/services/airflow"
+  export AIRFLOW_HOME="$PWD/airflow"
   export AIRFLOW__API__WORKERS=1
   ```
 - Install dependencies
